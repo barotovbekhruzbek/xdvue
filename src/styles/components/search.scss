@@ -1,0 +1,41 @@
+.search-panel{
+    
+    .search-input{
+        transform: translateY(-35px);
+        label {
+            padding-top: 9px;
+            position: absolute;
+            padding-left: 16px;
+        }
+        input {
+            width: 366px;
+            height: 55px;
+            border-radius: 15px 0px;
+            border: 1px solid #BCBCBC;
+            &::placeholder {
+                color: #707070;
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 30px 212px 9px 16px;
+             }
+        }
+        button {
+            width: 144px;
+            height: 55px;
+            border-radius: 0px 15px;
+          
+            background: #00AEEF;
+          
+            border: none;
+            font-size: 20px;
+            color: white;
+            &:hover {
+                box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.16);
+            }
+        }
+        
+    }
+}
