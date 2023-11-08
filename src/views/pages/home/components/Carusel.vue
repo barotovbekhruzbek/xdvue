@@ -47,7 +47,7 @@
     },
   } );
   </script>
-  <style >
+  <style>
 @import '@splidejs/splide/dist/css/splide.min.css';
 
 .carusel-title {
@@ -75,7 +75,7 @@
 
 .box-carusel {
   width: 434px;
-  height: 284px;
+  height: 290px;
   background: #fff;
 
   border-radius: 10px;
