@@ -79,6 +79,12 @@ news and articles.</p>
          rewind: true,
          gap   : '110px',
          perPage: 4,
+         breakpoints: {
+          1152:{
+            perPage: 3,
+            gap   : '1px',
+          }
+        } 
        };
    
    

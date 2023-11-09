@@ -1,7 +1,7 @@
 <template>
   <div class="banner2">
     <div class="container">
-        <img src="../../../../assets/images/banner2.png" alt="">
+        <img src="../../../../assets/images/banner2.png" alt="" class="banner-foto">
     </div>
   </div>
 </template>
@@ -12,10 +12,19 @@ export default {
 }
 </script>
 
-<style scoped >
+<style scoped lang="scss">
 .banner2{
     padding-top: 90px;
     display: flex;
     justify-content: center;
+   
+  
+    .container {
+      .banner-foto {
+        width: 100%;
+      }
+    }
+    
+
 }
 </style>

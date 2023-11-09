@@ -16,7 +16,7 @@ import Footer from './layouts/Footer.vue';
 
 </template>
 
-<style>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 *{
@@ -28,5 +28,14 @@ import Footer from './layouts/Footer.vue';
 .container {
   max-width: 1242px;
   margin: 0 auto;
+  @media(max-width:1252px) {
+    max-width: 1100px;
+  }
+  @media(max-width:1100px){
+    max-width: 900px;
+  }
+  @media(max-width:900px) {
+    max-width: 700px;
+  }
 }
 </style>

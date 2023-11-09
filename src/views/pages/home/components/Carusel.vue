@@ -40,7 +40,14 @@
         rewind: true,
         gap   : '110px',
         perPage: 3,
+        breakpoints: {
+          1152:{
+            perPage: 2,
+            gap   : '1px',
+          }
+        }  
       };
+      
   
   
       return { options };

@@ -99,7 +99,7 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     #mainFooter {
         margin-top: 80px;
         background: #1C345A;
@@ -113,18 +113,27 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @media(max-width:1152px) {
+            width: 1100px;
+        }
     }
 
     #mainFooter .container #mainFooter-tBox {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        
+        @media(max-width:1152px) {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
     }
 
     #mainFooter .container #mainFooter-tBox #mainFooter-sBox {
         width: 400px;
         display: flex;
         flex-wrap: wrap;
+        align-self: flex-start;
     }
 
     #mainFooter .container #mainFooter-tBox #mainFooter-sBox a>button {
@@ -154,9 +163,12 @@
 
     #mainFooter .container #mainFooter-tBox #mainFooter-sBox #messengers>ul {
         width: 150px;
-        margin-top: -125px;
+       
         justify-content: space-between;
         display: flex;
+        @media(max-width:1152px) {
+            transform: translateX(-200px) translateY(25px);
+        }
     }
 
     #mainFooter .container #mainFooter-tBox #mainFooter-sBox #messengers>ul li {
@@ -174,6 +186,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @media(max-width:1152px){
+            justify-content: space-around;
+        }
     }
 
     #mainFooter .container>p {
