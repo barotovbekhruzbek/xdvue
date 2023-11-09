@@ -17,6 +17,9 @@ export default {
     padding-top: 90px;
     display: flex;
     justify-content: center;
+    @media(max-width:900px) {
+      display: none;
+    }
    
   
     .container {

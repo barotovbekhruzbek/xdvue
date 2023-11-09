@@ -1,4 +1,5 @@
 <template>
+  <div class="carusel">
     <div class="container">
      <div class="carusel-title">
          <h2>Your Unique Adventure</h2>
@@ -59,6 +60,7 @@ news and articles.</p>
       
      </Splide>
     </div>
+  </div>
    </template>
    
    
@@ -83,6 +85,10 @@ news and articles.</p>
           1152:{
             perPage: 3,
             gap   : '1px',
+          },
+          900:{
+            perPage: 2,
+            gap   : '1px',
           }
         } 
        };
@@ -94,6 +100,11 @@ news and articles.</p>
    </script>
    <style lang="scss" scoped>
  @import '@splidejs/splide/dist/css/splide.min.css';
+ @media(max-width:670px) {
+  .carusel {
+    display: none;
+  }
+ }
  
  .carusel-title {
    padding-top: 38px;
@@ -128,6 +139,9 @@ news and articles.</p>
    background: #FFF;
  
    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+   @media(max-width:900) {
+   margin-bottom: 35px;
+   }
  }
  .box-title {
    padding-top: 8px;
@@ -151,5 +165,6 @@ news and articles.</p>
    font-weight: 400;
    line-height: normal;
  }
+
  
  </style>

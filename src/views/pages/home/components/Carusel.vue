@@ -1,5 +1,6 @@
 <template>
-   <div class="container">
+ <div class="carusel">
+  <div class="container">
     <div class="carusel-title">
         <h2>Explore Top Study Destinations</h2>
         <h3>Discover study destinations in more than 120 diverse countries.</h3>
@@ -20,6 +21,7 @@
  
     </Splide>
    </div>
+ </div>
   </template>
   
   
@@ -44,6 +46,10 @@
           1152:{
             perPage: 2,
             gap   : '1px',
+          },
+          900:{
+            perPage: 2,
+            gap   : '20px',
           }
         }  
       };
@@ -56,6 +62,11 @@
   </script>
   <style>
 @import '@splidejs/splide/dist/css/splide.min.css';
+@media(max-width:670px) {
+  .carusel {
+    display: none;
+  }
+}
 
 .carusel-title {
   padding-top: 38px;
@@ -89,6 +100,7 @@
   background: #FFF;
 
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  
 }
 .box-title {
   padding-top: 8px;
@@ -111,5 +123,16 @@ line-height: normal;
   font-weight: 400;
   line-height: normal;
 }
+@media(max-width:900px) {
+  .box-carusel {
+    width: 320px;
+  }
+  .box-img {
+    width: 320px;
 
+  }
+  .box-img img {
+    width: 100%;
+  }
+}
 </style>
