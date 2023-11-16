@@ -13,7 +13,7 @@
         input {
             width: 366px;
             height: 55px;
-            border-radius: 15px 0px;
+          
             border: 1px solid #BCBCBC;
             @media(max-width:1152px) {
                 width: 310px;
@@ -30,11 +30,17 @@
                 line-height: normal;
                 padding: 30px 212px 9px 16px;
              }
+            
+          
+          
+        }
+        .in {
+            border-radius: 15px 0px 0px 15px;
         }
         button {
-            width: 144px;
+            width: 143px;
             height: 55px;
-            border-radius: 0px 15px;
+            border-radius: 0px 15px 15px 0px;
           
             background: #00AEEF;
           

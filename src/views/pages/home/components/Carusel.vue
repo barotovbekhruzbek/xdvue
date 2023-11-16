@@ -40,7 +40,7 @@
     setup() {
       const options = {
         rewind: true,
-        gap   : '110px',
+        gap   : '140px',
         perPage: 3,
         breakpoints: {
           1152:{
@@ -92,6 +92,7 @@
 }
 
 .box-carusel {
+  margin-bottom:50px;
   width: 434px;
   height: 290px;
   background: #fff;

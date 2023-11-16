@@ -48,6 +48,11 @@ header {
             padding: 10px 20px;
             color: #1C345A;
             text-decoration: none;
+            &:hover {
+                background-color: #00AEEF;
+                color:white;
+                transition: 0.3s linear;
+            }
           }
         }
     }
@@ -86,8 +91,11 @@ header {
             align-items: center;
             gap: 4px;
             align-self: flex-end;
+           i{
+            color: #00AEEF;
+           }
             p {
-                color: white;
+                color: #00AEEF;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;

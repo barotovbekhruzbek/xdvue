@@ -2,8 +2,8 @@
   <div class="search-panel">
     <div class="container">
         <div class="search-input">
-            <label for="where"> {{ where.length ==!0 ? labelof : label1 }} </label>
-            <input type="text" v-model="where"  placeholder="Select study destination">
+            <label for="where">Where?  </label>
+            <input type="text" v-model="where" class="in" placeholder='Select study destination'>
             <label for="where">Where?</label>
             <input type="text" placeholder="Select study destination">
             <label for="where">Where?</label>

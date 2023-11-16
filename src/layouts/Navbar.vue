@@ -23,7 +23,8 @@
                 <h2>Explore Levels, Destinations, and Programs</h2>
             </div>
             <div class="title-bottom">
-                <img src="../assets/images/icons.svg" alt="">
+                <i class="fa-regular fa-waveform-lines"></i>
+                <!-- <img src="../assets/images/icons.svg" alt=""> -->
                  <p> Filter my Preferences</p>
             </div>
         </div>
